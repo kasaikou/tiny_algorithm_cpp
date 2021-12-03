@@ -54,7 +54,7 @@ class priority_deque {
 
   pair& first() { return *ptr_first; }
   pair& last() { return *ptr_last; }
-  unsigned& length() { return used; }
+  unsigned length() { return used; }
   pair& at(const unsigned& idx) { return *add(ptr_first, idx); }
 
   bool push(const pair& kv) {
