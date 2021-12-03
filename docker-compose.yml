@@ -1,0 +1,7 @@
+version: "3.0"
+services:
+  gxx:
+    build: .
+    volumes:
+      - .:/src
+    # env_file: .env
