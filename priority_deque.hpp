@@ -52,7 +52,7 @@ class priority_deque {
     arr_last = (pair*)(arr) + (size - 1);
   }
 
-  reset() { used = 0; }
+  void reset() { used = 0; }
 
   pair& first() { return *ptr_first; }
   pair& last() { return *ptr_last; }

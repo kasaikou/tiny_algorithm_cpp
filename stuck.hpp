@@ -8,7 +8,7 @@ class stuck {
 
  public:
   stuck() { arr_edge = (Ty*)(arr); }
-  reset() { arr_edge = (Ty*)(arr); }
+  void reset() { arr_edge = (Ty*)(arr); }
   Ty& edge() { return *(arr_edge - 1); }
   Ty& oldedst() { return *arr; }
   unsigned length() { return (arr_edge - arr); }
